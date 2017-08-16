@@ -241,7 +241,7 @@ class Wxpay{
 		}
 
 		// 商品名称
-		$subject = '广告派--商品支付';
+		$subject = '';
 		// $res = $this->unifiedOrder(124,$total,$subject);//调用生成APP需要的参数
 		// dump($res);
 	}
