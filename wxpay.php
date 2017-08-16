@@ -7,13 +7,13 @@ use Think\Controller;
 class WxpayController extends MainController{
 	public function _initialize(){
 		
-		define('APPID','wxda639393b4fab8a5');//应用APPID
-		define('MCHID','1430318002');//商户号
+		define('APPID','');//应用APPID
+		define('MCHID','');//商户号
 
 		## 获取APIKEY新版微信已经更新APIKEY的获取方式，需要登录到微信支付商户平台配置，在“账户设置”->“[API安全](https://pay.weixin.qq.com/index.php/account/api_cert)”中的**API密钥**下进行设置。
-		define('KEY', '4D214FD7927E9783923F80E1CD099F89');//APIKEY
+		define('KEY', '');//APIKEY
 
-		define('NOTIFY_URL','http://www.adpie.tv/');//支付回调地址
+		define('NOTIFY_URL','');//支付回调地址
 		
 		define('ORDER_URL', 'https://api.mch.weixin.qq.com/pay/unifiedorder');//统一下单api地址
 	}
