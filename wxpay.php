@@ -1,11 +1,9 @@
 <?php
-namespace Api\Controller;
-use Think\Controller;
 /**
 *微信支付
 */
-class WxpayController extends MainController{
-	public function _initialize(){
+class Wxpay{
+	public function __construct(){
 		
 		define('APPID','');//应用APPID
 		define('MCHID','');//商户号
